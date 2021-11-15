@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
     vendor/motorola/beckham/proprietary/system/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc.so \
     vendor/motorola/beckham/proprietary/system/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc2.so \
-    vendor/motorola/beckham/proprietary/system/framework/com.motorola.motosignature.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.motorola.motosignature.jar \
     vendor/motorola/beckham/proprietary/system/lib/libmodmanager_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmodmanager_system.so \
     vendor/motorola/beckham/proprietary/system/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc.so \
     vendor/motorola/beckham/proprietary/system/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc2.so \
@@ -578,4 +577,5 @@ PRODUCT_PACKAGES += \
     ModService \
     MotCamera2 \
     ProjectorApp \
-    ims
+    ims \
+    com.motorola.motosignature
